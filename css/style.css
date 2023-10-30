@@ -1,0 +1,144 @@
+body{
+    background-color: grey;
+}
+
+header{
+    background-color: rosybrown;
+    color: purple;
+    margin: 20px 5px 20px 5px;
+    min-height: 60px;
+    padding: 30px 5px 5px 5px;
+}
+
+.container{
+    margin: auto;
+    overflow: hidden;
+    width: 80%;
+}
+
+header #title{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+header #title h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+header nav ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+header nav a{
+    color: purple;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+header a .current{
+    color: purple;
+    font-weight: bold;
+}
+
+#showcase #text{
+    background-image: url('../assets/dan-meyers-IQVFVH0ajag-unsplash-980x734.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: purple;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+
+#showcase p{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+#showcase .sell{
+    color: #000000;
+    font-weight: bolder;
+    text-align:start;
+    text-decoration: solid;
+}
+
+#showcase #submit{
+    background: purple;
+    border: none;
+    height: 40px;
+    margin: 10px;
+}
+
+.image{
+    height: 150px;
+    width: 100px;
+}
+
+#boxes h1{
+    font-size: 24px;
+    font-weight: 700 ;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.container-2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    height: 200px;
+    margin-bottom: 120px;
+    padding: 20px;
+    text-align: center;
+}
+
+#boxes .box{
+    background-color: purple;
+    border-radius: 5px;
+    color: grey;
+    margin: 20px;
+    margin-bottom: 60px;
+    padding: 10px;
+    width: 70%;
+}
+
+.click{
+    color: #000000;
+    text-decoration: none;
+}
+
+#foot{
+    background-color: rosybrown;
+    margin-top: 160px;
+    
+    padding-top: 70px;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) and (min-width: 769px) {
+    header nav ul{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container-2{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px){
+    header nav ul{
+        grid-template-columns: 1fr;
+    }
+
+    .container-2{
+        grid-template-columns: 1fr;
+    }
+}

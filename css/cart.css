@@ -1,0 +1,37 @@
+.reg{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.reg h3{
+    color: purple;
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+.reg input:focus{
+    outline: none;
+}
+
+
+.reg form{
+    margin-top: 80px;
+}
+
+.reg label{
+    color: purple;
+    font-size: 18px;
+}
+
+.reg p{
+    color: purple;
+}
+
+.reg p a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#foot{
+    margin-bottom: 0;
+}

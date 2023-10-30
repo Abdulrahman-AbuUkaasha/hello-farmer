@@ -1,0 +1,10 @@
+.intro{
+    color: purple;
+    text-align: center;
+}
+
+.profile{
+    border-radius: 50px;
+    height: 250px;
+    width: 200px;
+}
